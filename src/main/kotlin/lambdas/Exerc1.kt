@@ -1,5 +1,6 @@
 package lambdas
 
+// Lambdas
 data class Aluno(val nome: String, val nota: Double)
 
 fun main(args: Array<String>){
@@ -11,7 +12,8 @@ fun main(args: Array<String>){
         Aluno("Ricardo", 5.7)
     )
 
-    val aprovados = alunos.filter{ it.nota > 7.0 }.sortedBy{it.nome}
+    //Recebe um filtro, que seleciona os alunos que possuem nota maior que 7.0, e ordena os nomes por ordem alfabética.
+    val aprovados = alunos.filter{it.nota > 7.0 }.sortedBy{it.nome}
     println(aprovados)
 
 }

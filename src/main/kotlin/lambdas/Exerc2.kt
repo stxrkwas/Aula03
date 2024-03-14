@@ -1,5 +1,8 @@
 package lambdas
 
+// readLine()
+
+//Função que recebe os valores inseridos nas variáveis e os multiplica
 fun multiplica(x: Int, y: Int): Int{
     return x * y
 }
