@@ -12,7 +12,7 @@ fun main(args: Array<String>){
         Aluno("Ricardo", 5.7)
     )
 
-    //Recebe um filtro, que seleciona os alunos que possuem nota maior que 7.0, e ordena os nomes por ordem alfabética.
+    //Recebe um filtro, que seleciona os alunos que possuem nota maior que 7.0, e ordena por nome em ordem alfabética.
     val aprovados = alunos.filter{it.nota > 7.0 }.sortedBy{it.nome}
     println(aprovados)
 

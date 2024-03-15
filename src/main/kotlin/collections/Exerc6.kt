@@ -22,7 +22,7 @@ fun main(args: Array<String>){
         // Enquanto 'coluna' e 'valor' estiver na matriz com um índice:
         for((coluna, valor) in linhaArray.withIndex()){
 
-            // Imprima 'linha' e 'coluna' - o valor de cada linha e coluna == valor
+            // Imprimir as "coordenadas" - o valor dentro de cada linha e coluna == valor
             println("[$linha][$coluna] - ${matriz[linha][coluna]} == $valor")
         }
     }

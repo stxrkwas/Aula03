@@ -14,7 +14,7 @@ fun main(args: Array<String>){
             println(item.toUpperCase())
         }
 
-        //Se não estiver, imprimir os outros itens.
+        //Se não for uma string, imprimir os outros itens.
         else{
             println(item)
         }
